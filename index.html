@@ -59,7 +59,7 @@
             align-items: center;
         }
         .skill span {
-            width: 150px; /* Fixed width for skill names */
+            width: 150px;
             font-weight: bold;
         }
         .progress-bar {
@@ -104,7 +104,7 @@
             <div class="contact-info">
                 <span><a href="mailto:ahmedovalmat8@gmail.com">📧 ahmedovalmat8@gmail.com</a></span>
                 <span>📍 Tashkent, Uzbekistan</span>
-                <span><a href="tel:+998970174660" >📞 +998970174660</a></span>
+                <span><a href="tel:+998970174660">📞 +998970174660</a></span>
             </div>
         </div>
 
@@ -112,6 +112,55 @@
             <h2>Education</h2>
             <p><strong>MARS-IT-SCHOOL</strong><br>October 2023 — October 2024</p>
         </div>
+
+        <div class="section">
+            <h2>About Info</h2>
+            <p>
+                Mening ismim Ahmad, men 15 yoshdaman va MERN hamda MEVN texnologiyalari asosida full-stack dasturchiman. 1 yildan beri Mars IT Schoolda o'qiyapman va shu vaqt ichida to'rt nafar real loyihani muvaffaqiyatli yakunladim. Ushbu loyihalarim menga dasturlashning amaliy tomonlarini chuqurroq tushunishga yordam berdi va jamoaviy ishlash tajribasini orttirishga imkon berdi.
+            </p>
+            <p>
+                Mening asosiy ko'nikmalarim quyidagilar: 
+                <ul>
+                    <li><strong>Frontend:</strong> HTML, CSS, JavaScript, Vue.js, React.js</li>
+                    <li><strong>Backend:</strong> Node.js,Python,Express</li>
+                    <li><strong>Ma'lumotlar bazasi:</strong> MongoDB va MySQL</li>
+                </ul>
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Work Experience</h2>
+            <p><strong>Full-Stack Developer Intern</strong> — <em>MARS IT SCHOOL</em><br>March 2023 — Present</p>
+            <ul>
+                <li>MERN va MEVN stack asosida ilovalarni ishlab chiqish.</li>
+                <li>Backend API yaratish va frontend bilan bog'lash.</li>
+                <li>Jamoada ishlab, loyiha uchun mas'uliyatli qismlarni ishlab chiqishga hissa qo'shish.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+            
+            <p><strong>Project Name:</strong> Online Course Platform<br>
+               <strong>Description:</strong> O'quv kurslari platformasi, backendda Node.js va frontendda React.js texnologiyalaridan foydalanilgan. Foydalanuvchilar uchun o'quv kurslarini sotib olish, kuzatib borish va sertifikat olish imkoniyatlari mavjud.</p>
+            
+            <p><strong>Project Name:</strong> Sanatoriy<br>
+               <strong>Description:</strong> Odamlar uchun sanatoriya xizmatlarini onlayn tarzda qidirish va buyurtma qilish imkoniyatini ta'minlovchi veb-ilova. Bu ilova orqali foydalanuvchilar sanatoriya joylari haqida batafsil ma'lumot olishlari va joy buyurtma qilishlari mumkin.</p>
+            
+            <p><strong>Project Name:</strong> Oil-Trade<br>
+               <strong>Description:</strong> Moy sotuvga mo'ljallangan internet magazin, foydalanuvchilarga turli xil moy mahsulotlarini onlayn xarid qilish imkonini beradi. Ilova orqali mahsulotlarni qidirish, xarid qilish, va yetkazib berish uchun buyurtma qilish mumkin.</p>
+            
+            <p><strong>Project Name:</strong> CRM-LMS MARS-IT-SCHOOL<br>
+               <strong>Description:</strong> Kurslar va talabalar uchun yaratilgan veb-sayt. Ushbu tizim o'quv jarayonini boshqarish, talabalar va o'qituvchilarni birlashtirish va darslarni rejalashtirish uchun mo'ljallangan. Foydalanuvchilar kurslarga yozilishlari, darslarni kuzatishlari va baholarini ko'rishlari mumkin.</p>
+            
+            <p><strong>Project Name:</strong> TOP-TRIP<br>
+               <strong>Description:</strong> Onlayn avia bilet sotib olish uchun platforma. Bu ilova foydalanuvchilarga aviachiptalarni qidirish, narxlarni solishtirish va eng mosini tanlab onlayn xarid qilish imkoniyatini beradi.</p>
+            
+            <p><strong>Project Name:</strong> Online Sanatoriya Bot<br>
+               <strong>Description:</strong> Telegram bot orqali sanatoriya xizmatlarini ko'rsatish tizimi. Foydalanuvchilar sanatoriya joylarini qidirish, mavjud bo'sh joylarni bilish va to'g'ridan-to'g'ri bot orqali buyurtma qilishlari mumkin. Bu bot oddiy va qulay interfeys orqali xizmatlarni boshqarish imkoniyatini beradi.</p>
+        </div>
+        
+
 
         <div class="section">
             <h2>Skills</h2>
@@ -166,15 +215,17 @@
             </div>
         </div>
 
-       
+        <div class="section">
+            <h2>Hobbies and Interests</h2>
+            <p>Yangi texnologiyalarni o'rganish, o'yin ishlab chiqish, va dasturlash bilan shug'ullanish. Kitob o'qish va sport bilan shug'ullanish.</p>
+        </div>
     </div>
+    
     <div class="footer">
         <button class="download-btn" onclick="downloadPDF()">DOWNLOAD PDF</button>
     </div>
-    <!-- Include html2pdf.js from a CDN -->
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
-
-    <!-- JavaScript to Generate PDF -->
     <script>
         function downloadPDF() {
             const element = document.getElementById('resume');
